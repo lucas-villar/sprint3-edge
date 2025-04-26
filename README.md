@@ -28,6 +28,12 @@ Ambientes críticos, como UTIs, exigem um rigoroso controle ambiental para garan
 - **Comunicação MQTT:** Disponibilização dos dados para consumo por aplicações externas (ex: MyMQTT)
 
 ---
+## 💡 Protótipo (Wokwi)
+
+- Link: https://wokwi.com/projects/429238239077641217
+- ![Simulação do protótipo](prototipo.png)
+
+---
 ## 📈 Diagrama do Sistema
 
 ![Diagrama do Sistema](diagrama.png)
