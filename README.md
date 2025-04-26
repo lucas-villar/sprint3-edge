@@ -31,7 +31,7 @@ Ambientes críticos, como UTIs, exigem um rigoroso controle ambiental para garan
 ## 💡 Protótipo (Wokwi)
 
 - Link: https://wokwi.com/projects/429238239077641217
-- ![Simulação do protótipo](prototipo.png)
+![Simulação do protótipo](prototipo.png)
 
 ---
 ## 📈 Diagrama do Sistema
