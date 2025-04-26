@@ -43,7 +43,7 @@ Ambientes críticos, como UTIs, exigem um rigoroso controle ambiental para garan
 
 - **Camada IoT:** Responsável pela coleta de dados em tempo real (sensor DHT22) e pelas respostas locais imediatas (alerta sonoro e visual no buzzer e LCD).  
 - **Camada Back-End:** 
-  - O Arduino IDE é responsável por fornecer o código à maquina e disponibilizar as informações na porta serial.
+  - O Arduino IDE é responsável por fornecer o código ao circuito Arduino e disponibilizar as informações na porta serial.
   - O Node-RED captura os dados transmitidos via serial e os disponibiliza para consulta via MQTT.
 - **Camada Front-End:** 
   - Qualquer cliente MQTT, como o aplicativo **MyMQTT**, pode se conectar ao sistema para visualizar em tempo real as leituras de temperatura e umidade do ambiente.
