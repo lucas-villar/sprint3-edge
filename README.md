@@ -52,9 +52,9 @@ Ambientes críticos, como UTIs, exigem um rigoroso controle ambiental para garan
 ---
 ## 🔗 Node-Red
 
-- Configuração dos flows:
+- Configuração dos flows: <br>
 ![Configuração dos flows](nodes.png)
-- Dashboard Node-Red:
+- Dashboard Node-Red: <br>
 ![Dashboard Node-Red](dashboard.png)
 
 ---
