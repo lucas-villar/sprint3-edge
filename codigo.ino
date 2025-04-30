@@ -4,7 +4,7 @@
 #include<LiquidCrystal_I2C.h>
 // Pinos
 #define DHTPIN 4
-#define DHTTYPE 22
+#define DHTTYPE 11
 #define ledR 3
 #define ledG 2
 #define buzzerPin 5
@@ -25,9 +25,10 @@ void checkSensor() {
   temp = dht.readTemperature();
   umid = dht.readHumidity();
   StaticJsonDocument<100>json;
-  json["Temperatura: "] = temp;
-  json["Umidade: "] = umid;
+  json["Temperatura"] = temp;
+  json["Umidade"] = umid;
   serializeJson(json, Serial);
+  Serial.println();
 }
 
 void setup() {
