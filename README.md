@@ -49,6 +49,13 @@ Ambientes críticos, como UTIs, exigem um rigoroso controle ambiental para garan
   - O Node-RED captura os dados transmitidos via serial e os disponibiliza para consulta via MQTT.
 - **Camada Front-End:** 
   - Qualquer cliente MQTT, como o aplicativo **MyMQTT**, pode se conectar ao sistema para visualizar em tempo real as leituras de temperatura e umidade do ambiente.
+---
+## 🔗 Node-Red
+
+- Configuração dos flows:
+![Configuração dos flows](nodes.png)
+- Dashboard Node-Red:
+![Dashboard Node-Red](dashboard.png)
 
 ---
 ## 📜 Código Fonte do Projeto
